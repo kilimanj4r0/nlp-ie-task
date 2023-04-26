@@ -1,2 +1,5 @@
-# NLP-IE-task
-SKB Kontur DS Intern test task 
+# NLP: Information Extraction task
+
+> Based on SKB Kontur DS Intern test task
+
+---
