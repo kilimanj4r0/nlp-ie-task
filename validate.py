@@ -19,8 +19,8 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--predict', required=True, help='Path to *.tsv file with predicted news labels.')
-    parser.add_argument('--gt', required=True, help='Path to *.tsv file with correct news labels.')
+    parser.add_argument('--predict', required=True, help='Path to file with predicted news labels.')
+    parser.add_argument('--gt', required=True, help='Path to file with correct news labels.')
     args = parser.parse_args()
 
     main(args)
